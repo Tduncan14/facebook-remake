@@ -8,5 +8,11 @@ header{
 
 .logo-area{
     color:white;
-    
+
+}
+/* targeting the anchor link of the logo div */
+
+.logo-area{
+    text-decoration:none;
+    color:white;
 }
