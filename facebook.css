@@ -8,11 +8,41 @@ header{
 
 .logo-area{
     color:white;
+    display:inline-block;
 
 }
 /* targeting the anchor link of the logo div */
 
-.logo-area{
+.logo-area a{
     text-decoration:none;
     color:white;
+    font-size:20px;
 }
+/* time to enter a different section the menu section*/
+
+ .menu{
+     display:inline-block;
+ }
+
+ .menu ul li {
+     display:inline-block;
+ }
+
+ .icon-links{
+     display:inline-block;
+ }
+
+ .icon-links ul li {display:inline-block;}
+
+
+ .settings{
+     display: inline-block;
+ }
+
+ .search-area{
+     display:inline-block;
+ }
+
+ .search-area ul li {
+     display:inline-block;
+ }
