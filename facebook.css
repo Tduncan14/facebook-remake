@@ -5,7 +5,7 @@
 html{
     font-family:sans-serif;
 }
-
+/*///////////////////////////////////////////////// */
 header{
     background: #385998;
     padding:15px;
@@ -48,15 +48,12 @@ header .icon-links{
      display:inline-block;
      width:30%;
      padding-left:20px;
- 
+     border-right:1px solid rgba(255, 255, 25, .3);
+     
  }
 
 header .icon-links ul li {display:inline-block;}
 
- 
- header .quick-options{
-
- }
 
 
  header .settings /*privacy*/{
@@ -71,5 +68,22 @@ header .icon-links ul li {display:inline-block;}
 
  header .search-area ul li {
      display:inline-block;
+
    
+ }
+ /*/////////////////////////////////////////*/
+
+ #top-area{
+     padding:200px 15px 90px 15px;
+ }
+
+ #top-area .profile-info .user-image {
+
+    padding:10px;
+    display:inline-block;
+ }
+
+ 
+ #top-area .profile-info .user-image img{
+    border-radius:50px;
  }
