@@ -97,6 +97,7 @@ header .icon-links ul li {display:inline-block;}
  #top-area .profile-info .user-detail {
     display:inline-block; 
     vertical-align: top;
+    padding-left:15px;
  }
 
  #top-area .profile-info .user-detail h3{
@@ -110,7 +111,7 @@ header .icon-links ul li {display:inline-block;}
  }
 
  #top-area .profile-info .user-detail a{
-     display:inline-inline block;
+     display:inline block;
      background: rgba(255,255,255, .3);
      margin-left: 4px;
      width:30%;
@@ -118,6 +119,13 @@ header .icon-links ul li {display:inline-block;}
      text-transform:uppercase;
      text-decoration:none;
      margin-top:20px;
-     font-size:12px;
+     font-size:11px;
      padding:10px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+    border-radius: 5px;   
+ }
+
+ #top-area .profile-info .user-detail a:hover{
+  background:#2196f3;
  }
