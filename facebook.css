@@ -138,7 +138,16 @@ header .icon-links ul li {display:inline-block;}
 
  #content-area .side-column{
      width:35%;
-     padding:2.5%;
+     margin: 0 2.5%;
      background-color:gray;
      height:600px;
+     float:left;
  }
+
+ #content-area .main-area{
+    width:55%;
+    margin: 0 2.5%;
+    background-color:blue;
+    height:600px;
+   float:left;
+}
