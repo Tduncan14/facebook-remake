@@ -75,10 +75,14 @@ header .icon-links ul li {display:inline-block;}
 
  #top-area{
      padding:200px 15px 90px 15px;
+    background: url(image/space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  }
 
  #top-area .profile-info .user-image {
-
     padding:10px;
     display:inline-block;
  }
@@ -87,3 +91,19 @@ header .icon-links ul li {display:inline-block;}
  #top-area .profile-info .user-image img{
     border-radius:50px;
  }
+
+ #top-area .profile-info .user-detail {
+    display:inline-block; 
+    vertical-align: top;
+ }
+
+ #top-area .profile-info .user-detail h3{
+     color:white;
+     font-size:24px;
+     font-weight:200;
+     margin-top:30px;
+    
+
+ }
+
+ #top-area .profile-info .user-detail a
