@@ -131,3 +131,14 @@ header .icon-links ul li {display:inline-block;}
  #top-area .profile-info .user-detail a:hover{
   background:#2196f3;
  }
+
+ #content-area{
+
+ }
+
+ #content-area .side-column{
+     width:35%;
+     padding:2.5%;
+     background-color:gray;
+     height:600px;
+ }
