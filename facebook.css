@@ -162,8 +162,26 @@ header .icon-links ul li {display:inline-block;}
   height:30px;
   width:30px;
   border-radius:50%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
  }
 
+ #content-area .widget-box .head .widget-icon .fa{
+    background: #bfbfbf;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:50%;
+    font-size:20px;
+    
+   }
 
   #content-area  a {
       color:blue;
