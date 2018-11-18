@@ -144,6 +144,12 @@ header .icon-links ul li {display:inline-block;}
      float:left;
  }
 
+ #content-area .widgetbox{
+     float: left;
+     width: 35%;
+     margin: 0 2.5%;
+ }
+
  #content-area .main-area{
     width:55%;
     margin: 0 2.5%;
