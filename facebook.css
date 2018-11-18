@@ -140,21 +140,23 @@ header .icon-links ul li {display:inline-block;}
  #content-area .side-column{
      width:35%;
      margin: 0 2.5%;
-     background-color:gray;
+     background-color:white;
      height:600px;
      float:left;
  }
 
  #content-area .widgetbox{
-     float: left;
-     width: 35%;
-     margin: 0 2.5%;
+    background:white;
  }
+  #content-area  a {
+      color:blue;
+  }
+
 
  #content-area .main-area{
     width:55%;
     margin: 0 2.5%;
-    background-color:blue;
+    background-color:none;
     height:600px;
    float:left;
 }
